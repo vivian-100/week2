@@ -1,0 +1,48 @@
+.personIcon{
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+
+.personIcon a{
+    display: block;
+}
+
+.allProduct{
+    color:var(--Primary-400)
+}
+
+.page .btn{
+    padding: 8px 15px;
+    border-radius: 0px;
+    font-weight: 400;
+}
+
+.page .active{
+    background: var(--Primary-300);
+}
+
+.banner{
+    background: var(--Primary-200);
+}
+
+.footer{
+    color: var(--Neutral-600);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    border-top: solid 1px var(--Neutral-300);
+}
+
+/* 擬態選擇器 */
+nav a:hover{
+    color: var(--Neutral-600);
+}
+
+nav i:hover{
+    color: var(--Primary-400);
+}
+
+.banner .btn:hover{
+    background-color: var(--Neutral-700);
+}
